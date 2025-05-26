@@ -9,7 +9,7 @@ return_code="%(?..${PR_ORANGE}%? ${PR_BLUE})"
 
 PROMPT=$'
 ${PR_ORANGE}%D{[%H:%M:%S]} ${PR_BLUE}[%~] $(git_prompt_info)\
-${PR_BLUE}-> $return_code%#%{$reset_color%} '
+${PR_BLUE}-> $return_code$%{$reset_color%} '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="${PR_ORANGE}["
 ZSH_THEME_GIT_PROMPT_SUFFIX="]"
